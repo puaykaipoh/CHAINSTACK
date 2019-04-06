@@ -35,19 +35,19 @@
 ### Testing list resources
 1. install [curl](https://help.ubidots.com/how-to-with-ubidots/learn-how-to-install-run-curl-on-windowsmacosxlinux)
 2. On windows, open command prompt with administrator rights. On mac open terminal and type sudo su
-3. type curl -H "Authorization: Token <insert your token here>" http://localhost:8000/resources/ , example: curl -H "Authorization: Token 4e3a5af99d7bfd93bf5b97eed6c8e61467060c25" http://localhost:8000/resources/
+3. type curl -H "Authorization: Token *insert your token here*" http://localhost:8000/resources/ , example: curl -H "Authorization: Token 4e3a5af99d7bfd93bf5b97eed6c8e61467060c25" http://localhost:8000/resources/
 4. you will get a list of resource ids
 
 ### Testing create resources
 1. install [curl](https://help.ubidots.com/how-to-with-ubidots/learn-how-to-install-run-curl-on-windowsmacosxlinux)
 2. On windows, open command prompt with administrator rights. On mac open terminal and type sudo su
-3. type curl -X PUT -H "Authorization: Token <insert your token here>" http://localhost:8000/resources/ , example: curl -X PUT -H "Authorization: Token 4e3a5af99d7bfd93bf5b97eed6c8e61467060c25" http://localhost:8000/resources/
+3. type curl -X PUT -H "Authorization: Token *insert your token here*" http://localhost:8000/resources/ , example: curl -X PUT -H "Authorization: Token 4e3a5af99d7bfd93bf5b97eed6c8e61467060c25" http://localhost:8000/resources/
 4. you will get the resource id that was created
 
 ### Testing delete resource
 1. install [curl](https://help.ubidots.com/how-to-with-ubidots/learn-how-to-install-run-curl-on-windowsmacosxlinux)
 2. On windows, open command prompt with administrator rights. On mac open terminal and type sudo su
-3. curl -X DELETE -H "Authorization: Token <insert your token here>" -d "id=<insert resource id>" http://localhost:8000/resources/, example: curl -X DELETE -H "Authorization: Token 4e3a5af99d7bfd93bf5b97eed6c8e61467060c25" -d "id=a94a817b-2011-47a1-bc33-261a0f54fc9a" http://localhost:8000/resources/
+3. curl -X DELETE -H "Authorization: Token *insert your token here*" -d "id=*insert resource id*" http://localhost:8000/resources/, example: curl -X DELETE -H "Authorization: Token 4e3a5af99d7bfd93bf5b97eed6c8e61467060c25" -d "id=a94a817b-2011-47a1-bc33-261a0f54fc9a" http://localhost:8000/resources/
 4. you should get the outcome out deletion
 
 ### Change database
