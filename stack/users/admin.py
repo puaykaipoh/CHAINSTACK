@@ -5,7 +5,7 @@ from rest_framework.authtoken.models import Token
 from .models import Profile
 
 class ProfileAdmin(admin.ModelAdmin):
-	fields = ('email', 'password', 'first_name', 'last_name', 'is_staff', 'is_active', 'is_superuser')
+	fields = ('email', 'password', 'first_name', 'last_name', 'is_staff', 'is_active', 'is_superuser', 'quota')
 
 admin.site.register(Profile, ProfileAdmin)
 
