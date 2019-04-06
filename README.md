@@ -57,3 +57,8 @@
 ### Running the automated tests
 1. After installation, control c to stop the server from running
 2. on the same command prompt or terminal, type python manage.py test
+
+### Technical choice
+- python has a very readable syntax and makes maintaining python code easier
+- python has many support library including many machine learning library
+- django is a very complete web framework that has a lot of boiler plate code written into it, so that we can write less code. Less code means easier to maintain
