@@ -5,7 +5,8 @@
 4. on the command prompt or terminal, type git clone https://github.com/puaykaipoh/CHAINSTACK.git
 5. cd to CHAINSTACK directory (same directory as this README) in the command prompt or terminal
 6. For windows, in command prompt, type .\venv\Scripts\activate.bat For mac, in terminal, type source ./venv/Scripts/activate
-7. On the same command prompt or terminal, type python manage.py runserver
+7. cd to stack
+8. On the same command prompt or terminal, type python manage.py runserver
 
 ### logging into administration
 1. Open a web browser, go to http://localhost:8000/admin
