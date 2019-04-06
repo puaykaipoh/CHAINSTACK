@@ -1,0 +1,1 @@
+.\venv\Scripts\activate.bat && cd stack && python manage.py runserver

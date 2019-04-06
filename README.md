@@ -4,9 +4,7 @@
 3. install git [here](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
 4. on the command prompt or terminal, type git clone https://github.com/puaykaipoh/CHAINSTACK.git
 5. cd to CHAINSTACK directory (same directory as this README) in the command prompt or terminal
-6. For windows, in command prompt, type .\venv\Scripts\activate.bat For mac, in terminal, type source ./venv/Scripts/activate
-7. cd to stack
-8. On the same command prompt or terminal, type python manage.py runserver
+6. For windows, in command prompt, type run_server.bat For mac, in terminal, type source run_server
 
 ### logging into administration
 1. Open a web browser, go to http://localhost:8000/admin
@@ -51,8 +49,9 @@
 4. you should get the outcome out deletion
 
 ### Change database
-You can change the database by first install and running the database and then changing the DATABASES dictionary in CHAINSTACK/stack/settings.py
-You may want to change database if you wish to have a dedicated database server or multiple database servers
+- You can change the database by first install and running the database and then changing the DATABASES dictionary in CHAINSTACK/stack/settings.py
+- You may want to change database if you wish to have a dedicated database server or multiple database servers
+- If you change database remember to cd to stack and run python manage.py migrate
 
 ### Running the automated tests
 1. After installation, control c to stop the server from running
