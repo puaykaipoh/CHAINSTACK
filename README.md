@@ -1,10 +1,11 @@
 ### INSTALLATION
-1. install python [here](https://www.python.org/downloads/release/python-362/)
+1. install python 3 [here](https://www.python.org/downloads/release/python-362/)
 2. On windows, open command prompt with administrator rights. On mac open terminal and type sudo su
-3. install git [here](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
-4. on the command prompt or terminal, type git clone https://github.com/puaykaipoh/CHAINSTACK.git
-5. cd to CHAINSTACK directory (same directory as this README) in the command prompt or terminal
-6. For windows, in command prompt, type run_server.bat For mac, in terminal, type source run_server
+3. install pip [here](https://www.makeuseof.com/tag/install-pip-for-python/)
+4. install git [here](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
+5. on the command prompt or terminal, type git clone https://github.com/puaykaipoh/CHAINSTACK.git
+6. cd to CHAINSTACK directory (same directory as this README) in the command prompt or terminal
+7. For windows, in command prompt, type run_server.bat For mac, in terminal, type source run_server
 
 ### logging into administration
 1. Open a web browser, go to http://localhost:8000/admin
